@@ -1,5 +1,6 @@
 #include <stdio.h>
 /*
+ * main - Entry point
  *using main as function to pass the code inside it.
  *
  * main function is denoted by int main(void)
