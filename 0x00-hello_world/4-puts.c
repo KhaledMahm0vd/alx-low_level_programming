@@ -1,9 +1,7 @@
-#include <stdio.h>
- /**
+#include<stdio.h>
+/**
  * main - Entry point
- * 
- * Description: 'using puts to print a statement'
- * 
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
