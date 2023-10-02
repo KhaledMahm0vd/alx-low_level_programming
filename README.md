@@ -12,3 +12,4 @@
 |0x06-pointers_arrays_strings|temp|
 |0x07-pointers_arrays_strings|temp|
 |0x08-C-Recursion|temp|
+|0x09-Static_libraries|Create a static library|
