@@ -14,3 +14,4 @@
 |0x08-C-Recursion|temp|
 |0x09-Static_libraries|Create a static library|
 |0x0A-argc_argv|temp|
+|0x0B-malloc_free|temp|
