@@ -15,3 +15,4 @@
 |0x09-Static_libraries|Create a static library|
 |0x0A-argc_argv|temp|
 |0x0B-malloc_free|temp|
+|0x0C-more_malloc_free|temp|
