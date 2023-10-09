@@ -8,30 +8,26 @@
  *
  * Return: pointer to the new array
  */
-int *array_range(int min, int max) {
-  int *ptr;
-  int i, size;
+int *array_range(int min, int max)
+	{
+	int *ptr;
+	int i, size;
 
-  // Check if the minimum value is greater than the maximum value
-  if (min > max)
-    return NULL;
+	if (min > max)
+		return (NULL);
 
-  // Calculate the size of the array
-  size = max - min + 1;
+	size = max - min + 1;
 
-  // Allocate memory for the array
-  ptr = malloc(sizeof(int) * size);
+	ptr = malloc(sizeof(int) * size);
 
-  // Check if the memory allocation failed
-  if (ptr == NULL)
-    return NULL;
+	if (ptr == NULL)
+		return (NULL);
 
-  // Initialize the array
-  for (i = 0; i < size; i++) {
-    ptr[i] = min++;
-  }
+	for (i = 0; i < size; i++)
+		{
+	ptr[i] = min++;
+		}
 
-  // Return the pointer to the array
-  return ptr;
+	return (ptr);
 }
 
