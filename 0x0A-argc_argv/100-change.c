@@ -12,29 +12,27 @@
  */
 int main(int argc, char *argv[])
 {
-  int num, coin, coins_needed, i;
-  int coins[] = {25, 10, 5, 2, 1};
+	int num, coin, coins_needed, i;
+	int coins[] = {25, 10, 5, 2, 1};
+	if (argc != 2)
+	{
+	printf("Error\n");
+	return (1);
+	}
 
-  if (argc != 2)
-  {
-    printf("Error\n");
-    return 1;
-  }
+	num = atoi(argv[1]);
+	coins_needed = 0;
 
-  num = atoi(argv[1]);
-  coins_needed = 0;
-
-  for (i = 0; i < 5 && num > 0; i++)
-  {
-    coin = coins[i];
-    while (num >= coin)
-    {
-      coins_needed++;
-      num -= coin;
-    }
-  }
-
-  printf("%d\n", coins_needed);
-  return 0;
+	for (i = 0; i < 5 && num > 0; i++)
+	{
+	coin = coins[i];
+	while (num >= coin)
+	{
+		coins_needed++;
+		num -= coin;
+	}
+	}
+	printf("%d\n", coins_needed);
+	return (0);
 }
 
