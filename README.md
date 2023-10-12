@@ -16,3 +16,7 @@
 |0x0A-argc_argv|temp|
 |0x0B-malloc_free|temp|
 |0x0C-more_malloc_free|temp|
+|0x0D-preprocessor|temp|
+|0x0E-structures_typedef|temp|
+|0x0F-function_pointers|temp|
+|0x10-variadic_functions|temp|
