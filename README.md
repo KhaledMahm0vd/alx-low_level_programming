@@ -20,3 +20,4 @@
 |0x0E-structures_typedef|temp|
 |0x0F-function_pointers|temp|
 |0x10-variadic_functions|temp|
+|0x12-singly_linked_lists|temp|
