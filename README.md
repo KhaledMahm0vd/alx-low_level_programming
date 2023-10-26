@@ -21,3 +21,5 @@
 |0x0F-function_pointers|temp|
 |0x10-variadic_functions|temp|
 |0x12-singly_linked_lists|temp|
+|0x13-more_singly_linked_list|temp|
+|0x14-bit_manipulation|temp|
