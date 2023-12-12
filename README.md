@@ -25,3 +25,4 @@
 |0x14-bit_manipulation|temp|
 |0x15-file_io|temp|
 |0x17-doubly_linked_list|temp|
+|0x18-dynamic_libraries|temp|
