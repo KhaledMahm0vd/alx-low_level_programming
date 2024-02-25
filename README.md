@@ -26,3 +26,4 @@
 |0x15-file_io|temp|
 |0x17-doubly_linked_list|temp|
 |0x18-dynamic_libraries|temp|
+|0x1A-hash_tables|temp|
